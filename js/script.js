@@ -11,21 +11,21 @@ document.querySelector("button").onclick=function(){
             // console.log(slice.email)
              let tr= document.createElement("tr")
  
-             let tdNome = document.createElement("td")
-             tdNome.append(document.createTextNode(slice.userId))
-             tr.append(tdNome)
+             let userId = document.createElement("td")
+             iserId.append(document.createTextNode(slice.userId))
+             tr.append(userId)
  
-             let tdEmail = document.createElement("td")
-             tdEmail.append(document.createTextNode(slice.id))
-             tr.append(tdEmail)
+             let Id = document.createElement("td")
+             Id.append(document.createTextNode(slice.id))
+             tr.append(Id)
  
-             let tdPhone = document.createElement("td")
-             tdPhone.append(document.createTextNode(slice.title))
-             tr.append(tdPhone)
+             let title = document.createElement("td")
+             title.append(document.createTextNode(slice.title))
+             tr.append(title)
  
-             let tdEmp = document.createElement("td")
-             tdEmp.append(document.createTextNode(slice.completed))
-             tr.append(tdEmp)
+             let completed = document.createElement("td")
+             completed.append(document.createTextNode(slice.completed))
+             tr.append(completed)
              tbody.append(tr)
              
          });

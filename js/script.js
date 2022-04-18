@@ -12,7 +12,7 @@ document.querySelector("button").onclick=function(){
              let tr= document.createElement("tr")
  
              let userId = document.createElement("td")
-             iserId.append(document.createTextNode(slice.userId))
+             userId.append(document.createTextNode(slice.userId))
              tr.append(userId)
  
              let Id = document.createElement("td")
